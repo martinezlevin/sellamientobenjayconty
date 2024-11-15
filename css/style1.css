@@ -6,19 +6,15 @@
     box-sizing: border-box;
     text-decoration: none;
     max-width: 100%;
+
   }
 
   body {
     font-family: "Inter", sans-serif;
-    background-color: #ffffff; /* Fondo de color blanco */
-    background-image: url('../img/image.png');
-    background-size: cover; /* La imagen ocupa toda la pantalla */
-    background-position: center top; /* Centra la imagen en la parte superior */
-    background-repeat: repeat; /* Repite la imagen */
-    background-attachment: relative; /* Fija el fondo para que sea responsive */
+    background: rgb(129,216,208);
+    background: linear-gradient(90deg, rgba(129,216,208,1) 0%, rgba(255,255,255,1) 50%, rgba(129,216,208,1) 100%);
+    overflow-x: hidden;
 }
-
-
 
 
 /* LOADER */
@@ -387,7 +383,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 5rem; /* Ajusta el tamaño del texto */
+    font-size: 4em; /* Ajusta el tamaño del texto */
     z-index: 1;
 }
 
