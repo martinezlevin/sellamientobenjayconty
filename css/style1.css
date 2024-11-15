@@ -139,53 +139,41 @@
     color: #81D8D0;
   }
 
-
-  .mt-n1 {
-    margin-top: -1rem !important;
-    margin-bottom: -2rem !important;
-  }
-
-
   @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap');
 
 
   .fecha span {
       font-weight: 700;
-      color: #81D8D0;
   }
   
-.faltan {
-  color: #81D8D0;
-  font-size: 3rem;
-}
 
   .cuenta-atras {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       align-items: center;
       justify-content: center;
   }
   
   .grupo {
-      line-height: 1;
+      line-height: 0.9;
   }
   
   .grande {
       font-family: "Bricolage Grotesque", sans-serif;
       font-size: 3rem;
       font-weight: 550;
-      color: #81D8D0;
+      color: #000000;
   }
 
   .chico {
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 500;
-      color: #81D8D0;
+      color: #000000;
   }
   
   
-  @media (width < 550px) {
+  @media (width < 500px) {
       .cuenta-atras {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -200,28 +188,34 @@
   }
 
   .countdown {
-    width: 80vw; /* Ajusta el tamaño para que sea responsive */
-    height: 80vw; /* Asegúrate de que sea igual al ancho para un círculo perfecto */
-    max-width: 400px; /* Tamaño máximo para pantallas grandes */
-    max-height: 400px; /* Tamaño máximo para pantallas grandes */
-    background-color: #ffffff; /* Color de fondo del círculo */
-    border-radius: 50%; /* Convierte el cuadrado en un círculo */
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9); /* Sombra para el efecto */
-    font-size: 2em; /* Tamaño del texto */
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    width: fit-content;
+    display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     text-align: center;
+    font-size: 2em; /* Tamaño del texto */
+    
+    margin: 20rem;
+
+    /*
+    background-color: #ffffff; /* Color de fondo del círculo *//*
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9); /* Sombra para el efecto */
+
+    width: 50vw; /* Ajusta el tamaño para que sea responsive */
+    height: auto; /* Asegúrate de que sea igual al ancho para un círculo perfecto */
+
+    max-width: 700px; /* Tamaño máximo para pantallas grandes */
+    max-height: 700px; /* Tamaño máximo para pantallas grandes */
   }
 
   .flores {
     position: absolute;
-    width: 600px;
-    height: 600px;
-    z-index: 0;
+    z-index: -10;
   }
 
 
