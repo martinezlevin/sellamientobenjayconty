@@ -624,3 +624,15 @@
   flex: 2;
   background-color: #81d8cf8d;
 }
+
+.footer-flower {
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  margin: 0; /* Elimina márgenes externos */
+  padding: 0; /* Elimina relleno interno */
+}
+
+.footer-flower img {
+  width: 100%; /* Hace que la imagen abarque todo el ancho del contenedor */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  display: block; /* Elimina el espacio en blanco debajo de las imágenes */
+}
