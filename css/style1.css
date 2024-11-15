@@ -636,3 +636,9 @@
   height: auto; /* Mantiene las proporciones de la imagen */
   display: block; /* Elimina el espacio en blanco debajo de las imágenes */
 }
+
+.techo {
+  width: 50%; /* Hace que la imagen abarque todo el ancho del contenedor */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  display: block; /* Elimina el espacio en blanco debajo de las imágenes */
+}
