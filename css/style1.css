@@ -9,11 +9,24 @@
 
   }
 
+  /*
   body {
     font-family: "Inter", sans-serif;
     background: rgb(129,216,208);
     background: linear-gradient(90deg, rgba(129,216,208,1) 0%, rgba(255,255,255,1) 50%, rgba(129,216,208,1) 100%);
     overflow-x: hidden;
+}
+*/
+
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url('../img/image.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL o ruta de tu imagen */
+  background-size: cover; /* La imagen ocupará toda la página */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+  overflow-x: hidden;
+  margin: 0; /* Elimina márgenes para asegurar que el fondo cubra toda la página */
+  min-height: 100vh; /* Asegura que el fondo cubra el 100% de la altura de la ventana */
 }
 
 
@@ -620,15 +633,14 @@
 }
 
 .footer-flower {
-  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  width: 50%; /* Asegura que el contenedor ocupe todo el ancho */
   margin: 0; /* Elimina márgenes externos */
   padding: 0; /* Elimina relleno interno */
 }
 
 .footer-flower img {
-  width: 100%; /* Hace que la imagen abarque todo el ancho del contenedor */
+  width: 50%; /* Hace que la imagen abarque todo el ancho del contenedor */
   height: auto; /* Mantiene las proporciones de la imagen */
-  display: block; /* Elimina el espacio en blanco debajo de las imágenes */
 }
 
 .techo {
